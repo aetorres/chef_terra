@@ -1,0 +1,7 @@
+---
+hostname: 127.0.0.1
+port: '2202'
+username: vagrant
+ssh_key: "/home/atorres/Public/Auxis/chef/.kitchen/kitchen-vagrant/default-centos-67/.vagrant/machines/default/virtualbox/private_key"
+last_action: verify
+last_error: 

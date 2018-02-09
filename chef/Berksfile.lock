@@ -1,0 +1,25 @@
+DEPENDENCIES
+  tomcat (~> 3.0.0)
+  tomcat-test
+    path: .
+    metadata: true
+  tomcat_test
+    path: tomcat_test
+
+GRAPH
+  apt (6.1.4)
+  homebrew (4.3.0)
+  java (1.50.0)
+    apt (>= 0.0.0)
+    homebrew (>= 0.0.0)
+    windows (>= 0.0.0)
+  ohai (5.2.1)
+  tomcat (3.0.0)
+  tomcat-test (0.1.0)
+    java (>= 0.0.0)
+    tomcat (>= 0.0.0)
+  tomcat_test (0.1.0)
+    java (>= 0.0.0)
+    tomcat (>= 0.0.0)
+  windows (3.4.4)
+    ohai (>= 4.0.0)

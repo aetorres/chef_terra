@@ -1,5 +1,8 @@
 # AWS DevOps engineer evaluation
 
+The README.md from the test in on ```chef/tomcat_test/README.md```
+
+
 ## Objective
 
 Evalueate your knowledge/experience in three key areas: AWS, Chef and Terraform.

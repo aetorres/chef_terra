@@ -1,0 +1,565 @@
+I, [2018-02-09T10:20:12.866233 #13940]  INFO -- default-centos-7: -----> Converging <default-centos-7>...
+I, [2018-02-09T10:20:12.866818 #13940]  INFO -- default-centos-7: Preparing files for transfer
+I, [2018-02-09T10:20:12.866927 #13940]  INFO -- default-centos-7: Preparing dna.json
+I, [2018-02-09T10:20:12.867159 #13940]  INFO -- default-centos-7: Resolving cookbook dependencies with Berkshelf 6.3.1...
+I, [2018-02-09T10:20:12.993563 #13940]  INFO -- default-centos-7: Removing non-cookbook files before transfer
+I, [2018-02-09T10:20:13.000113 #13940]  INFO -- default-centos-7: Preparing solo.rb
+I, [2018-02-09T10:20:13.309355 #13940]  INFO -- default-centos-7: -----> Installing Chef Omnibus (install only if missing)
+I, [2018-02-09T10:20:13.309648 #13940]  INFO -- default-centos-7: Downloading https://omnitruck.chef.io/install.sh to file /tmp/install.sh
+I, [2018-02-09T10:20:13.309803 #13940]  INFO -- default-centos-7: Trying wget...
+I, [2018-02-09T10:20:20.207634 #13940]  INFO -- default-centos-7: Download complete.
+I, [2018-02-09T10:20:20.271888 #13940]  INFO -- default-centos-7: el 7 x86_64
+I, [2018-02-09T10:20:20.272048 #13940]  INFO -- default-centos-7: Getting information for chef stable  for el...
+I, [2018-02-09T10:20:20.272115 #13940]  INFO -- default-centos-7: downloading https://omnitruck.chef.io/stable/chef/metadata?v=&p=el&pv=7&m=x86_64
+I, [2018-02-09T10:20:20.272170 #13940]  INFO -- default-centos-7:   to file /tmp/install.sh.2948/metadata.txt
+I, [2018-02-09T10:20:20.274127 #13940]  INFO -- default-centos-7: trying wget...
+I, [2018-02-09T10:20:21.734400 #13940]  INFO -- default-centos-7: sha1	0d8b0f9b3ce0a2721f7e8ff7ea46330fd712df46
+I, [2018-02-09T10:20:21.734463 #13940]  INFO -- default-centos-7: sha256	89c96addb749370044964b63d16382149f0756d54e833602dd91cf039a92a9f7
+I, [2018-02-09T10:20:21.734491 #13940]  INFO -- default-centos-7: url	https://packages.chef.io/files/stable/chef/13.7.16/el/7/chef-13.7.16-1.el7.x86_64.rpm
+I, [2018-02-09T10:20:21.734509 #13940]  INFO -- default-centos-7: version	13.7.16
+I, [2018-02-09T10:20:21.736734 #13940]  INFO -- default-centos-7: downloaded metadata file looks valid...
+I, [2018-02-09T10:20:21.758448 #13940]  INFO -- default-centos-7: downloading https://packages.chef.io/files/stable/chef/13.7.16/el/7/chef-13.7.16-1.el7.x86_64.rpm
+I, [2018-02-09T10:20:21.758547 #13940]  INFO -- default-centos-7:   to file /tmp/omnibus/cache/chef-13.7.16-1.el7.x86_64.rpm
+I, [2018-02-09T10:20:21.759690 #13940]  INFO -- default-centos-7: trying wget...
+I, [2018-02-09T10:20:21.773047 #13940]  INFO -- default-centos-7: trying curl...
+I, [2018-02-09T10:20:21.775860 #13940]  INFO -- default-centos-7: /tmp/install.sh: line 139: /tmp/omnibus/cache/chef-13.7.16-1.el7.x86_64.rpm: Protocol error
+I, [2018-02-09T10:20:21.779295 #13940]  INFO -- default-centos-7: grep: /tmp/install.sh.2948/stderr: No such file or directory
+I, [2018-02-09T10:20:21.795386 #13940]  INFO -- default-centos-7: trying perl...
+I, [2018-02-09T10:20:21.800051 #13940]  INFO -- default-centos-7: /tmp/install.sh: line 169: /tmp/omnibus/cache/chef-13.7.16-1.el7.x86_64.rpm: Protocol error
+I, [2018-02-09T10:20:21.803001 #13940]  INFO -- default-centos-7: grep: /tmp/install.sh.2948/stderr: No such file or directory
+I, [2018-02-09T10:20:21.803094 #13940]  INFO -- default-centos-7: trying python...
+I, [2018-02-09T10:20:21.804377 #13940]  INFO -- default-centos-7: /tmp/install.sh: line 190: /tmp/omnibus/cache/chef-13.7.16-1.el7.x86_64.rpm: Protocol error
+I, [2018-02-09T10:20:21.810848 #13940]  INFO -- default-centos-7: grep: /tmp/install.sh.2948/stderr: No such file or directory
+I, [2018-02-09T10:20:21.810947 #13940]  INFO -- default-centos-7: Unable to retrieve a valid package!
+I, [2018-02-09T10:20:21.810991 #13940]  INFO -- default-centos-7: Version: 
+I, [2018-02-09T10:20:21.811046 #13940]  INFO -- default-centos-7: 
+I, [2018-02-09T10:20:21.811085 #13940]  INFO -- default-centos-7: Please file a Bug Report at https://github.com/chef/omnitruck/issues/new
+I, [2018-02-09T10:20:21.811119 #13940]  INFO -- default-centos-7: Alternatively, feel free to open a Support Ticket at https://www.chef.io/support/tickets
+I, [2018-02-09T10:20:21.811166 #13940]  INFO -- default-centos-7: More Chef support resources can be found at https://www.chef.io/support
+I, [2018-02-09T10:20:21.811201 #13940]  INFO -- default-centos-7: 
+I, [2018-02-09T10:20:21.811234 #13940]  INFO -- default-centos-7: Please include as many details about the problem as possible i.e., how to reproduce
+I, [2018-02-09T10:20:21.811268 #13940]  INFO -- default-centos-7: the problem (if possible), type of the Operating System and its version, etc.,
+I, [2018-02-09T10:20:21.811302 #13940]  INFO -- default-centos-7: and any other relevant details that might help us with troubleshooting.
+I, [2018-02-09T10:20:21.811356 #13940]  INFO -- default-centos-7: 
+I, [2018-02-09T10:20:21.811389 #13940]  INFO -- default-centos-7: Metadata URL: https://omnitruck.chef.io/stable/chef/metadata?v=&p=el&pv=7&m=x86_64
+I, [2018-02-09T10:20:21.811423 #13940]  INFO -- default-centos-7: Download URL: https://packages.chef.io/files/stable/chef/13.7.16/el/7/chef-13.7.16-1.el7.x86_64.rpm
+I, [2018-02-09T10:20:21.811454 #13940]  INFO -- default-centos-7: \nDEBUG OUTPUT FOLLOWS:\n\nSTDERR from wget:\n\n/tmp/omnibus/cache/chef-13.7.16-1.el7.x86_64.rpm: Protocol error\n
+E, [2018-02-09T10:20:21.821508 #13940] ERROR -- default-centos-7: Converge failed on instance <default-centos-7>.
+E, [2018-02-09T10:20:21.821665 #13940] ERROR -- default-centos-7: ------Exception-------
+E, [2018-02-09T10:20:21.821706 #13940] ERROR -- default-centos-7: Class: Kitchen::ActionFailed
+E, [2018-02-09T10:20:21.821729 #13940] ERROR -- default-centos-7: Message: SSH exited (1) for command: [sudo -E sh -c '
+
+chef_omnibus_root="/opt/chef"
+chef_omnibus_url="https://omnitruck.chef.io/install.sh"
+install_flags="-d /tmp/omnibus/cache"
+pretty_version="install only if missing"
+sudo_sh="sudo -E sh"
+version="true"
+
+tmp_stderr="/tmp/stderr";
+
+# capture_tmp_stderr SOURCE
+capture_tmp_stderr() {
+  # spool up $tmp_stderr from all the commands we called
+  if test -f "$tmp_stderr"; then
+    output="`cat $tmp_stderr`";
+    stderr_results="${stderr_results}\nSTDERR from $1:\n\n${output}\n";
+    rm $tmp_stderr;
+  fi
+}
+
+# do_curl URL FILENAME
+do_curl() {
+  echo "Trying curl...";
+  curl -sL -D "$tmp_stderr" "$1" > "$2";
+  ec=$?;
+  # check for 404
+  grep "404 Not Found" "$tmp_stderr" 2>&1 >/dev/null;
+  if test $? -eq 0; then
+    http_404_error "$1";
+  fi
+
+  # check for bad return status or empty output
+  if test $ec -ne 0 || test ! -s "$2"; then
+    capture_tmp_stderr "curl";
+    return 1;
+  else
+    echo "Download complete.";
+    return 0;
+  fi
+}
+
+# do_download URL FILENAME
+do_download() {
+  echo "Downloading ${1} to file ${2}";
+
+  exists wget;
+  if test $? -eq 0; then
+    do_wget "$1" "$2" && return 0;
+  fi
+
+  exists curl;
+  if test $? -eq 0; then
+    do_curl "$1" "$2" && return 0;
+  fi
+
+  exists fetch;
+  if test $? -eq 0; then
+    do_fetch "$1" "$2" && return 0;
+  fi
+
+  exists python;
+  if test $? -eq 0; then
+    do_python "$1" "$2" && return 0;
+  fi
+
+  exists perl;
+  if test $? -eq 0; then
+    do_perl "$1" "$2" && return 0;
+  fi
+
+  unable_to_download "$1" "$2";
+}
+
+# do_fetch URL FILENAME
+do_fetch() {
+  echo "Trying fetch...";
+  fetch -o "$2" "$1" 2>"$tmp_stderr";
+  ec=$?;
+  # check for 404
+  grep "Not Found" "$tmp_stderr" 2>&1 >/dev/null;
+  if test $? -eq 0; then
+    http_404_error "$1";
+  fi
+
+  # check for bad return status or empty output
+  if test $ec -ne 0 || test ! -s "$2"; then
+    capture_tmp_stderr "fetch";
+    return 1;
+  else
+    echo "Download complete.";
+    return 0;
+  fi
+}
+
+# do_perl URL FILENAME
+do_perl() {
+  echo "Trying perl...";
+  perl -e "use LWP::Simple; getprint(\$ARGV[0]);" "$1" > "$2" 2>"$tmp_stderr";
+  ec=$?;
+  # check for 404
+  grep "404 Not Found" "$tmp_stderr" 2>&1 >/dev/null;
+  if test $? -eq 0; then
+    http_404_error "$1";
+  fi
+
+  # check for bad return status or empty output
+  if test $ec -ne 0 || test ! -s "$2"; then
+    capture_tmp_stderr "perl";
+    return 1;
+  else
+    echo "Download complete.";
+    return 0;
+  fi
+}
+
+# do_python URL FILENAME
+do_python() {
+  echo "Trying python...";
+  python -c "import sys,urllib2 ; sys.stdout.write(urllib2.urlopen(sys.argv[1]).read())" "$1" > "$2" 2>"$tmp_stderr";
+  ec=$?;
+  # check for 404
+  grep "HTTP Error 404" "$tmp_stderr" 2>&1 >/dev/null;
+  if test $? -eq 0; then
+    http_404_error "$1";
+  fi
+
+  # check for bad return status or empty output
+  if test $ec -ne 0 || test ! -s "$2"; then
+    capture_tmp_stderr "python";
+    return 1;
+  else
+    echo "Download complete.";
+    return 0;
+  fi
+}
+
+# do_wget URL FILENAME
+do_wget() {
+  echo "Trying wget...";
+  wget -O "$2" "$1" 2>"$tmp_stderr";
+  ec=$?;
+  # check for 404
+  grep "ERROR 404" "$tmp_stderr" 2>&1 >/dev/null;
+  if test $? -eq 0; then
+    http_404_error "$1";
+  fi
+
+  # check for bad return status or empty output
+  if test $ec -ne 0 || test ! -s "$2"; then
+    capture_tmp_stderr "wget";
+    return 1;
+  else
+    echo "Download complete.";
+    return 0;
+  fi
+}
+
+# exists COMMAND
+exists() {
+  if command -v "$1" >/dev/null 2>&1; then
+    return 0;
+  else
+    return 1;
+  fi
+}
+
+# http_404_error URL
+http_404_error() {
+  echo ">>>>>> Downloading ${1} resulted in an HTTP/404, aborting";
+  exit 40;
+}
+
+# should_update_chef ROOT VERSION
+should_update_chef() {
+  if test ! -d "$1"; then
+    return 0;
+  elif test "$2" = "true"; then
+    return 1;
+  elif test "$2" = "latest"; then
+    return 0;
+  fi
+
+  if test -f "${1}/version-manifest.txt"; then
+    chef_version="`head -n 1 ${1}/version-manifest.txt | cut -d \" \" -f 2`";
+  else
+    chef_version="`${1}/bin/chef-solo -v | cut -d \" \" -f 2`";
+  fi
+
+  echo "$chef_version" | grep "^${2}" 2>&1 >/dev/null;
+  if test $? -eq 0; then
+    return 1;
+  else
+    echo "${2}" | grep "^$chef_version" 2>&1 >/dev/null;
+    if test $? -eq 0; then
+      return 1;
+    else
+      return 0;
+    fi
+  fi
+}
+
+# unable_to_download URL FILE
+unable_to_download() {
+  echo "Unable to download $1 to $2, aborting";
+
+  if test "x${stderr_results}" != "x"; then
+    echo "\nDEBUG OUTPUT FOLLOWS:\n${stderr_results}";
+  fi
+
+  exit 10;
+}
+
+# main
+main() {
+  should_update_chef "$chef_omnibus_root" "$version"
+  if test $? -eq 0; then
+    echo "-----> Installing Chef Omnibus (${pretty_version})";
+
+    # solaris 10 lacks recent enough credentials, so http url is used
+    platform="`/usr/bin/uname -s 2>/dev/null`";
+    platform_version="`/usr/bin/uname -r 2>/dev/null`";
+    if test "x${platform}" = "xSunOS" && test "x${platform_version}" = "x5.10"; then
+      chef_omnibus_url=`echo "$chef_omnibus_url" | sed -e "s/https/http/"`;
+    fi
+
+    do_download "$chef_omnibus_url" /tmp/install.sh;
+    $sudo_sh /tmp/install.sh $install_flags;
+  else
+    echo "-----> Chef Omnibus installation detected (${pretty_version})";
+  fi
+}
+
+# augment path in an attempt to find a download program
+PATH="${PATH}:/opt/local/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/usr/sfw/bin";
+export PATH;
+
+main
+']
+E, [2018-02-09T10:20:21.821756 #13940] ERROR -- default-centos-7: ----------------------
+E, [2018-02-09T10:20:21.821774 #13940] ERROR -- default-centos-7: ------Backtrace-------
+E, [2018-02-09T10:20:21.821789 #13940] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/provisioner/base.rb:83:in `rescue in call'
+E, [2018-02-09T10:20:21.821805 #13940] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/provisioner/base.rb:86:in `call'
+E, [2018-02-09T10:20:21.821821 #13940] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:393:in `block in converge_action'
+E, [2018-02-09T10:20:21.821837 #13940] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:536:in `synchronize_or_call'
+E, [2018-02-09T10:20:21.821854 #13940] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:498:in `block in action'
+E, [2018-02-09T10:20:21.821910 #13940] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/2.4.0/benchmark.rb:293:in `measure'
+E, [2018-02-09T10:20:21.821936 #13940] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:497:in `action'
+E, [2018-02-09T10:20:21.821956 #13940] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:389:in `converge_action'
+E, [2018-02-09T10:20:21.821988 #13940] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:368:in `block in transition_to'
+E, [2018-02-09T10:20:21.822014 #13940] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:367:in `each'
+E, [2018-02-09T10:20:21.822039 #13940] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:367:in `transition_to'
+E, [2018-02-09T10:20:21.822065 #13940] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:135:in `converge'
+E, [2018-02-09T10:20:21.822091 #13940] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/command.rb:197:in `public_send'
+E, [2018-02-09T10:20:21.822124 #13940] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/command.rb:197:in `run_action_in_thread'
+E, [2018-02-09T10:20:21.822145 #13940] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/command.rb:169:in `block (2 levels) in run_action'
+E, [2018-02-09T10:20:21.822176 #13940] ERROR -- default-centos-7: ----End Backtrace-----
+E, [2018-02-09T10:20:21.822192 #13940] ERROR -- default-centos-7: ---Nested Exception---
+E, [2018-02-09T10:20:21.822209 #13940] ERROR -- default-centos-7: Class: Kitchen::Transport::SshFailed
+E, [2018-02-09T10:20:21.822240 #13940] ERROR -- default-centos-7: Message: SSH exited (1) for command: [sudo -E sh -c '
+
+chef_omnibus_root="/opt/chef"
+chef_omnibus_url="https://omnitruck.chef.io/install.sh"
+install_flags="-d /tmp/omnibus/cache"
+pretty_version="install only if missing"
+sudo_sh="sudo -E sh"
+version="true"
+
+tmp_stderr="/tmp/stderr";
+
+# capture_tmp_stderr SOURCE
+capture_tmp_stderr() {
+  # spool up $tmp_stderr from all the commands we called
+  if test -f "$tmp_stderr"; then
+    output="`cat $tmp_stderr`";
+    stderr_results="${stderr_results}\nSTDERR from $1:\n\n${output}\n";
+    rm $tmp_stderr;
+  fi
+}
+
+# do_curl URL FILENAME
+do_curl() {
+  echo "Trying curl...";
+  curl -sL -D "$tmp_stderr" "$1" > "$2";
+  ec=$?;
+  # check for 404
+  grep "404 Not Found" "$tmp_stderr" 2>&1 >/dev/null;
+  if test $? -eq 0; then
+    http_404_error "$1";
+  fi
+
+  # check for bad return status or empty output
+  if test $ec -ne 0 || test ! -s "$2"; then
+    capture_tmp_stderr "curl";
+    return 1;
+  else
+    echo "Download complete.";
+    return 0;
+  fi
+}
+
+# do_download URL FILENAME
+do_download() {
+  echo "Downloading ${1} to file ${2}";
+
+  exists wget;
+  if test $? -eq 0; then
+    do_wget "$1" "$2" && return 0;
+  fi
+
+  exists curl;
+  if test $? -eq 0; then
+    do_curl "$1" "$2" && return 0;
+  fi
+
+  exists fetch;
+  if test $? -eq 0; then
+    do_fetch "$1" "$2" && return 0;
+  fi
+
+  exists python;
+  if test $? -eq 0; then
+    do_python "$1" "$2" && return 0;
+  fi
+
+  exists perl;
+  if test $? -eq 0; then
+    do_perl "$1" "$2" && return 0;
+  fi
+
+  unable_to_download "$1" "$2";
+}
+
+# do_fetch URL FILENAME
+do_fetch() {
+  echo "Trying fetch...";
+  fetch -o "$2" "$1" 2>"$tmp_stderr";
+  ec=$?;
+  # check for 404
+  grep "Not Found" "$tmp_stderr" 2>&1 >/dev/null;
+  if test $? -eq 0; then
+    http_404_error "$1";
+  fi
+
+  # check for bad return status or empty output
+  if test $ec -ne 0 || test ! -s "$2"; then
+    capture_tmp_stderr "fetch";
+    return 1;
+  else
+    echo "Download complete.";
+    return 0;
+  fi
+}
+
+# do_perl URL FILENAME
+do_perl() {
+  echo "Trying perl...";
+  perl -e "use LWP::Simple; getprint(\$ARGV[0]);" "$1" > "$2" 2>"$tmp_stderr";
+  ec=$?;
+  # check for 404
+  grep "404 Not Found" "$tmp_stderr" 2>&1 >/dev/null;
+  if test $? -eq 0; then
+    http_404_error "$1";
+  fi
+
+  # check for bad return status or empty output
+  if test $ec -ne 0 || test ! -s "$2"; then
+    capture_tmp_stderr "perl";
+    return 1;
+  else
+    echo "Download complete.";
+    return 0;
+  fi
+}
+
+# do_python URL FILENAME
+do_python() {
+  echo "Trying python...";
+  python -c "import sys,urllib2 ; sys.stdout.write(urllib2.urlopen(sys.argv[1]).read())" "$1" > "$2" 2>"$tmp_stderr";
+  ec=$?;
+  # check for 404
+  grep "HTTP Error 404" "$tmp_stderr" 2>&1 >/dev/null;
+  if test $? -eq 0; then
+    http_404_error "$1";
+  fi
+
+  # check for bad return status or empty output
+  if test $ec -ne 0 || test ! -s "$2"; then
+    capture_tmp_stderr "python";
+    return 1;
+  else
+    echo "Download complete.";
+    return 0;
+  fi
+}
+
+# do_wget URL FILENAME
+do_wget() {
+  echo "Trying wget...";
+  wget -O "$2" "$1" 2>"$tmp_stderr";
+  ec=$?;
+  # check for 404
+  grep "ERROR 404" "$tmp_stderr" 2>&1 >/dev/null;
+  if test $? -eq 0; then
+    http_404_error "$1";
+  fi
+
+  # check for bad return status or empty output
+  if test $ec -ne 0 || test ! -s "$2"; then
+    capture_tmp_stderr "wget";
+    return 1;
+  else
+    echo "Download complete.";
+    return 0;
+  fi
+}
+
+# exists COMMAND
+exists() {
+  if command -v "$1" >/dev/null 2>&1; then
+    return 0;
+  else
+    return 1;
+  fi
+}
+
+# http_404_error URL
+http_404_error() {
+  echo ">>>>>> Downloading ${1} resulted in an HTTP/404, aborting";
+  exit 40;
+}
+
+# should_update_chef ROOT VERSION
+should_update_chef() {
+  if test ! -d "$1"; then
+    return 0;
+  elif test "$2" = "true"; then
+    return 1;
+  elif test "$2" = "latest"; then
+    return 0;
+  fi
+
+  if test -f "${1}/version-manifest.txt"; then
+    chef_version="`head -n 1 ${1}/version-manifest.txt | cut -d \" \" -f 2`";
+  else
+    chef_version="`${1}/bin/chef-solo -v | cut -d \" \" -f 2`";
+  fi
+
+  echo "$chef_version" | grep "^${2}" 2>&1 >/dev/null;
+  if test $? -eq 0; then
+    return 1;
+  else
+    echo "${2}" | grep "^$chef_version" 2>&1 >/dev/null;
+    if test $? -eq 0; then
+      return 1;
+    else
+      return 0;
+    fi
+  fi
+}
+
+# unable_to_download URL FILE
+unable_to_download() {
+  echo "Unable to download $1 to $2, aborting";
+
+  if test "x${stderr_results}" != "x"; then
+    echo "\nDEBUG OUTPUT FOLLOWS:\n${stderr_results}";
+  fi
+
+  exit 10;
+}
+
+# main
+main() {
+  should_update_chef "$chef_omnibus_root" "$version"
+  if test $? -eq 0; then
+    echo "-----> Installing Chef Omnibus (${pretty_version})";
+
+    # solaris 10 lacks recent enough credentials, so http url is used
+    platform="`/usr/bin/uname -s 2>/dev/null`";
+    platform_version="`/usr/bin/uname -r 2>/dev/null`";
+    if test "x${platform}" = "xSunOS" && test "x${platform_version}" = "x5.10"; then
+      chef_omnibus_url=`echo "$chef_omnibus_url" | sed -e "s/https/http/"`;
+    fi
+
+    do_download "$chef_omnibus_url" /tmp/install.sh;
+    $sudo_sh /tmp/install.sh $install_flags;
+  else
+    echo "-----> Chef Omnibus installation detected (${pretty_version})";
+  fi
+}
+
+# augment path in an attempt to find a download program
+PATH="${PATH}:/opt/local/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/usr/sfw/bin";
+export PATH;
+
+main
+']
+E, [2018-02-09T10:20:21.822282 #13940] ERROR -- default-centos-7: ----------------------
+E, [2018-02-09T10:20:21.822304 #13940] ERROR -- default-centos-7: ------Backtrace-------
+E, [2018-02-09T10:20:21.822336 #13940] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/provisioner/base.rb:83:in `rescue in call'
+E, [2018-02-09T10:20:21.822359 #13940] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/provisioner/base.rb:86:in `call'
+E, [2018-02-09T10:20:21.822383 #13940] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:393:in `block in converge_action'
+E, [2018-02-09T10:20:21.822418 #13940] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:536:in `synchronize_or_call'
+E, [2018-02-09T10:20:21.822447 #13940] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:498:in `block in action'
+E, [2018-02-09T10:20:21.822477 #13940] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/2.4.0/benchmark.rb:293:in `measure'
+E, [2018-02-09T10:20:21.822505 #13940] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:497:in `action'
+E, [2018-02-09T10:20:21.822532 #13940] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:389:in `converge_action'
+E, [2018-02-09T10:20:21.822563 #13940] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:368:in `block in transition_to'
+E, [2018-02-09T10:20:21.822590 #13940] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:367:in `each'
+E, [2018-02-09T10:20:21.822613 #13940] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:367:in `transition_to'
+E, [2018-02-09T10:20:21.822644 #13940] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:135:in `converge'
+E, [2018-02-09T10:20:21.822661 #13940] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/command.rb:197:in `public_send'
+E, [2018-02-09T10:20:21.822682 #13940] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/command.rb:197:in `run_action_in_thread'
+E, [2018-02-09T10:20:21.822714 #13940] ERROR -- default-centos-7: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/command.rb:169:in `block (2 levels) in run_action'
+E, [2018-02-09T10:20:21.822742 #13940] ERROR -- default-centos-7: ----End Backtrace-----
